@@ -5,6 +5,7 @@ public class StringTest{
       // プログラムを途中で終了する簡易コード
       System.exit(-1);
     }
+    // コマンドライン引数の一つ目を表示
     String input = args[0];
     int begin = input.indexOf('<');
     if (begin >= 0){
