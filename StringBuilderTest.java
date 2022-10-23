@@ -13,5 +13,9 @@ public class StringBuilderTest{
       System.exit(-1);
     }
     StringBuilder input = new StringBuilder(args[0]);
+    // もし第一引数の文字列が"abc"であれば
+    stringBuilderToUpperCase(input);
+    // この行が"ABC"を出力する
+    System.println(input);
   }
 }
