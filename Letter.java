@@ -8,9 +8,10 @@ public class Letter{
 
   @Override
   public String toString(){
-    return title + "Dear" + author;
+    return title + "Marthin" + author;
   }
   public static void main(String... args){
-    Book book = new Book
+    Letter letter = new Letter("Dear", "Hello");
+    System.out.println(letter);
   }
 }
