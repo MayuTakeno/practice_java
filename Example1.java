@@ -3,5 +3,7 @@ public class Example1{
     int i;
     i = 5;
     System.out.println(i);
+    i = 10;
+    System.out.println(i);
   }
 }
