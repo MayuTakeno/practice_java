@@ -6,7 +6,7 @@ public class Example1{
     System.out.println(i);
     i = 10;
     System.out.println(i);
-    j = i;
+    j = i];
     System.out.println(j);
   }
 }
