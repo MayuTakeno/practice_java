@@ -7,7 +7,9 @@ public class Book{
   }
 
   // 継承
+  // toStringを使うためのOverride
   @Override
+  // toString = さまざまな型のオブジェクトを文字列で取得するメソッド
   public String toString(){
     return title + " written by " + author;
   }
