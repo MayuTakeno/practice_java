@@ -6,3 +6,9 @@ int...32bit符号付き整数
 long...64bit符号付き整数
 float...32bit符号付き浮動小数点数
 double...64bit符号付き浮動小数点数
+
+キーボードからの整数値の受け取り
+
+int 変数名 = in.nextInt();
+...
+in.close();
