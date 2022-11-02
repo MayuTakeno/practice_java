@@ -1,0 +1,8 @@
+char...１文字
+boolean...真偽値
+byte...8bit符号付き整数
+short...16bit符号付き整数
+int...32bit符号付き整数
+long...64bit符号付き整数
+float...32bit符号付き浮動小数点数
+double...64bit符号付き浮動小数点数
